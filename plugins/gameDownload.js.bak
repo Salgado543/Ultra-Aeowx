@@ -1,0 +1,371 @@
+import axios from 'axios';
+import { exec as execChild } from "node:child_process";
+import fetch from 'node-fetch'; 
+import fs from "node:fs";
+import path from "node:path";
+import { writeFile } from "fs/promises";
+import ffmpeg from 'fluent-ffmpeg'
+import cheerio from "cheerio";
+
+
+
+const MAX_FILE_SIZE = 280 * 1024 * 1024; // 280 MB
+const VIDEO_THRESHOLD = 70 * 1024 * 1024; // 70 MB
+const HEAVY_FILE_THRESHOLD = 100 * 1024 * 1024; // 100 MB
+const REQUEST_LIMIT = 3;
+const REQUEST_WINDOW_MS = 10000;
+const COOLDOWN_MS = 120000;
+const MAX_AUDIO_DURATION = 6 * 60; // 6 minutos en segundos
+
+let data = 0; 
+let urlMega = 0; 
+let urlM = 0; 
+
+const requestTimestamps = [];
+let isCooldown = false;
+let isProcessingHeavy = false;
+
+const isValidYouTubeUrl = url =>
+  /^(?:https?:\/\/)?(?:www\.|m\.|music\.)?youtu\.?be(?:\.com)?\/?.*(?:watch|embed)?(?:.*v=|v\/|\/)([\w\-_]+)\&?/.test(url);
+
+function checkRequestLimit() {
+  const now = Date.now();
+  requestTimestamps.push(now);
+  while (requestTimestamps.length > 0 && now - requestTimestamps[0] > REQUEST_WINDOW_MS) {
+    requestTimestamps.shift();
+  }
+  if (requestTimestamps.length >= REQUEST_LIMIT) {
+    isCooldown = true;
+    setTimeout(() => {
+      isCooldown = false;
+      requestTimestamps.length = 0;
+    }, COOLDOWN_MS);
+    return false;
+  }
+  return true;
+}
+
+async function ytdl(url, type = 'mp4') {
+  const headers = {
+    accept: '*/*',
+    'accept-language': 'en-US,en;q=0.9',
+    'sec-ch-ua': '"Chromium";v="132", "Not A(Brand";v="8"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'cross-site',
+    referer: 'https://id.ytmp3.mobi/',
+    'referrer-policy': 'strict-origin-when-cross-origin'
+  };
+
+  const videoId = url.match(/(?:youtu\.be\/|youtube\.com\/(?:.*v=|.*\/|.*embed\/))([^&?/]+)/)?.[1];
+  if (!videoId) throw new Error('ID de video no encontrado');
+
+  const init = await (await fetch(`https://d.ymcdn.org/api/v1/init?p=y&23=1llum1n471&_=${Date.now()}`, { headers })).json();
+  const convert = await (await fetch(`${init.convertURL}&v=${videoId}&f=${type}&_=${Date.now()}`, { headers })).json();
+
+  let info;
+  for (let i = 0; i < 3; i++) {
+    const res = await fetch(convert.progressURL, { headers });
+    info = await res.json();
+    if (info.progress === 3) break;
+    await new Promise(r => setTimeout(r, 1000));
+  }
+
+  if (!info || !convert.downloadURL) throw new Error('No se pudo obtener la URL de descarga');
+
+  // Limitar duración de audio
+  if (type === 'mp3' && info.duration > MAX_AUDIO_DURATION) {
+    throw new Error('El audio supera los 6 minutos de duración');
+  }
+
+  return { url: convert.downloadURL, title: info.title || 'Archivo sin título' };
+}
+
+async function fetchBuffer(url) {
+  const res = await fetch(url);
+  const arrayBuffer = await res.arrayBuffer();
+  return Buffer.from(arrayBuffer);
+}
+
+let handler = async (m, { conn, text, usedPrefix, command }) => {
+  const react = emoji => m.react(emoji);
+
+  if (!text) return conn.reply(m.chat, `⚡️ Uso: ${usedPrefix}${command} <nombre del juego de psp>`, m); 
+
+  await react('😁');
+
+  try {
+    
+
+
+// Prueba
+(async () => {
+  const resultado = await primerResultadoGamezfull(
+    text
+  );
+  console.log(resultado);
+  data = await extraerV(
+    resultado.link
+  ); 
+  console.log(data); 
+  try{urlM = await obtenerLinkMediafire(data.v);}catch{} 
+  try{urlMega = await obtenerLinkMega(data.v); 
+  }catch{}
+
+
+const res3 = await fetch("https://files.catbox.moe/wfd0ze.jpg")
+    const thumb3 = Buffer.from(await res3.arrayBuffer())
+
+    const fkontak = {
+      key: { fromMe: false, participant: "0@s.whatsapp.net" },
+      message: {
+        documentMessage: {
+          title: `『 ${resultado.title} 』`,
+          fileName: global.botname || "Shadow Bot",
+          jpegThumbnail: thumb3
+        }
+      }
+    }
+
+    const caption = `
+✧━───『 info del juego 』───━✧
+
+🎼 𝑻𝒊́𝒕𝒖𝒍𝒐: ${resultado.title}
+
+✧━───『 ChuchoBot 』───━✧
+💀El calacas Mod💀
+`
+
+    const thumb = (await conn.getFile(resultado.image)).data
+    await conn.sendMessage(
+      m.chat,
+      {
+        image: thumb,
+        caption,
+        footer: "⚡ Games ⚡",
+        buttons: [
+          { buttonId: `.mega ${urlMega}`, buttonText: { displayText: "🔻Mega" }, type: 1 },
+          { buttonId: `.mediafire ${urlM}`, buttonText: { displayText: "⬇️Mediafire" }, type: 1 }
+        ],
+        headerType: 4
+      },
+      { quoted: fkontak }
+      
+       
+      
+    ) 
+    
+    })(); 
+
+    await react('✅');
+    isProcessingHeavy = false;
+  } catch (e) {
+    await react('❌');
+    isProcessingHeavy = false;
+    return m.reply(`📌 *ERROR:* ${e.message}`);
+  }
+}; 
+
+handler.before = async (m, { conn }) => {
+  const selected = m?.message?.buttonsResponseMessage?.selectedButtonId
+  if (!selected) return
+
+  const parts = selected.split(" ")
+  const cmd = parts.shift()
+  const url = parts.join(" ") 
+
+  if (['.mega', '.mediafire'].includes(cmd)) {
+  
+  // Prueba
+(async () => {
+  const pass = await extraerPasswordGratispaste(
+    data.v
+  );
+
+  if (pass) {
+    console.log("🔐 Contraseña: ", pass);
+    return sendPass(conn, m, url, pass) 
+  } else {
+    console.log("✅ No hay contraseña");
+  }
+})(); 
+  }
+} 
+
+const sendPass = async (conn, m, url, pass) => {
+  try {
+      const sent = await conn.sendMessage(m.chat, { text: '🔐 Contraseña: ' + pass }, { quoted: m })
+    
+  } catch (e) {
+    
+  }
+} 
+
+async function extraerPasswordGratispaste(v) {
+const url = 'https://www.gratispaste.com/?v=' + v; 
+  const res = await fetch(url, {
+    headers: {
+      "user-agent": "Mozilla/5.0"
+    }
+  });
+
+  const html = await res.text();
+  const $ = cheerio.load(html);
+
+  let password = null;
+
+  $("span").each((_, el) => {
+    const text = $(el).text().trim();
+
+    if (/contrase/i.test(text)) {
+      // Ej: "Contraseña: www.gamezfull.com"
+      password = text
+        .replace(/contraseñ?a\s*:/i, "")
+        .trim();
+      return false; // salir del loop
+    }
+  });
+
+  return password; // null si no existe
+} 
+
+async function extraerV(urlJuego) {
+  const res = await fetch(urlJuego, {
+    headers: {
+      "user-agent": "Mozilla/5.0"
+    }
+  });
+
+  const html = await res.text();
+  const $ = cheerio.load(html);
+
+  // Botón MediaFire
+  const exitLink = $("a.download-button-green").attr("href");
+
+  if (!exitLink) {
+    throw new Error("No se encontró el botón MediaFire");
+  }
+
+  // Parsear URL exit.php
+  const exitUrl = new URL(exitLink);
+  const encodedUrl = exitUrl.searchParams.get("url");
+
+  // Decodificar
+  const decodedUrl = decodeURIComponent(encodedUrl);
+
+  // Obtener el parámetro v
+  const finalUrl = new URL(decodedUrl);
+  const v = finalUrl.searchParams.get("v");
+
+  return {
+    exitLink,
+    decodedUrl,
+    v
+  };
+}
+
+async function obtenerLinkMediafire(v) {
+  const url = 'https://www.gratispaste.com/?v=' + v; 
+
+  const res = await fetch(url, {
+    headers: {
+      "user-agent": "Mozilla/5.0"
+    }
+  });
+
+  const html = await res.text();
+  const $ = cheerio.load(html);
+
+  let mediafireLink = null;
+
+  // Buscar cualquier enlace que apunte a mediafire
+  $("a").each((_, el) => {
+    const href = $(el).attr("href");
+    if (href && href.includes("mediafire.com")) {
+      mediafireLink = href;
+      return false; // salir del loop
+    }
+  });
+
+  if (!mediafireLink) {
+    throw new Error("No se encontró link MediaFire");
+  }
+
+  console.log("MediaFire:", mediafireLink);
+  return mediafireLink;
+} 
+
+async function obtenerLinkMega(v) {
+  const url = 'https://www.gratispaste.com/?v=' + v; 
+
+  const res = await fetch(url, {
+    headers: {
+      "user-agent": "Mozilla/5.0"
+    }
+  });
+
+  const html = await res.text();
+  const $ = cheerio.load(html);
+
+  let mediafireLink = null;
+
+  // Buscar cualquier enlace que apunte a mediafire
+  $("a").each((_, el) => {
+    const href = $(el).attr("href");
+    if (href && href.includes("mega.nz")) {
+      mediafireLink = href;
+      return false; // salir del loop
+    }
+  });
+
+  if (!mediafireLink) {
+    throw new Error("No se encontró link MediaFire");
+  }
+
+  console.log("Mega:", mediafireLink);
+  return mediafireLink;
+} 
+
+async function primerResultadoGamezfull(busqueda) {
+  const url = `https://www.gamezfull.com/?s=${encodeURIComponent(busqueda)}`;
+
+  const res = await fetch(url, {
+    headers: {
+      "user-agent": "Mozilla/5.0"
+    }
+  });
+
+  const html = await res.text();
+  const $ = cheerio.load(html);
+
+  // Primer resultado real
+  const firstCard = $("#search-results .gaming-card").first();
+
+  if (!firstCard.length) {
+    return null;
+  }
+
+  const title = firstCard.find(".gaming-title").text().trim();
+  const link = firstCard.find(".gaming-title").attr("href");
+
+  // Imagen real (lazy load)
+  const img =
+    firstCard.find("img").attr("data-lazy-src") ||
+    firstCard.find("img").attr("src");
+
+  return {
+    title,
+    link,
+    image: img
+  };
+}
+
+handler.help = ['ytmp4 <url>', 'ytaudio <url>'];
+handler.tags = ['descargas'];
+handler.command = ['game'];
+handler.group = true
+handler.premium = false 
+
+export default handler;

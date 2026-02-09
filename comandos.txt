@@ -1,0 +1,16 @@
+Comandos para instalar de forma manual
+
+termux-setup-storage
+
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn 
+
+yarn install
+npm install
+npm start 
+
+Comandos para mantener más tiempo activo el Bot 
+
+npm install -g pm2 
+
+pm2 start index.js -- bot 
+

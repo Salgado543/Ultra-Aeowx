@@ -1,0 +1,41 @@
+Comandos para instalar de forma manual
+
+termux-setup-storage
+
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+
+git clone https://github.com/The-King-Destroy/YukiBot-MD && cd YukiBot-MD
+
+yarn install
+npm install
+npm start 
+
+Comandos para mantener más tiempo activo el Bot
+Ejecutar estos comandos dentro de la carpeta YukiBot-MD
+
+termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
+Opciones Disponibles
+Esto eliminará todo el historial que hayas establecido con PM2:
+
+pm2 delete index
+Si tienes cerrado Termux y quiere ver de nuevo la ejecución use:
+
+pm2 logs 
+Si desea detener la ejecución de Termux use:
+
+pm2 stop index
+Si desea iniciar de nuevo la ejecución de Termux use:
+
+pm2 start index 
+
+cd storage/downloads/'Quick Share'/YukiBot-MD/YukiBot-MD
+
+pm2 start index.js -- bot 
+
+
+npm install -g pm2 
+
+pm2 start index.js --name bot --no-daemon 
+
+while true; do curl -I https://google.com >/dev/null 2>&1; sleep 15; done & 
+

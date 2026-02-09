@@ -1,0 +1,502 @@
+[1m[36mMade With | This Xyz[0m
+[1m[36mCopyright (C) - [0m[1m[31mBaileys - This Xyz[0m
+
+❀ Iniciando...
+
+
+ [38;2;0;255;0m_[39m[38;2;4;255;20m [39m[38;2;8;255;40m [39m[38;2;12;255;60m [39m[38;2;16;255;79m [39m[38;2;20;255;97m_[39m[38;2;25;255;115m [39m[38;2;29;255;132m [39m[38;2;33;255;149m [39m[38;2;37;255;165m_[39m[38;2;41;255;181m [39m[38;2;45;255;196m [39m[38;2;50;255;211m [39m[38;2;54;255;225m_[39m[38;2;58;255;238m [39m[38;2;62;255;251m [39m[38;2;66;245;255m [39m[38;2;71;233;255m_[39m[38;2;75;222;255m [39m[38;2;79;211;255m [39m[38;2;83;201;255m_[39m[38;2;87;191;255m [39m[38;2;91;182;255m [39m[38;2;96;174;255m [39m[38;2;100;166;255m_[39m[38;2;104;158;255m_[39m[38;2;108;151;255m_[39m[38;2;112;145;255m [39m[38;2;117;139;255m [39m[38;2;121;134;255m [39m[38;2;125;129;255m [39m[38;2;133;129;255m [39m[38;2;145;133;255m [39m[38;2;157;137;255m [39m[38;2;168;142;255m_[39m[38;2;178;146;255m_[39m[38;2;188;150;255m_[39m[38;2;197;154;255m [39m[38;2;206;158;255m [39m[38;2;214;163;255m [39m[38;2;221;167;255m_[39m[38;2;228;171;255m [39m[38;2;235;175;255m [39m[38;2;241;179;255m [39m[38;2;246;183;255m_[39m[38;2;251;188;255m [39m[38;2;255;192;253m [39m[38;2;255;196;250m [39m[38;2;255;200;246m [39m[38;2;255;204;244m_[39m[38;2;255;209;242m_[39m[38;2;255;213;240m_[39m[38;2;255;217;239m [39m[38;2;255;221;239m [39m[38;2;255;225;239m [39m[38;2;255;229;239m [39m[38;2;255;234;240m_[39m[38;2;255;238;242m [39m[38;2;255;242;244m [39m[38;2;255;246;247m [39m[38;2;255;250;251m_[39m[38;2;255;255;255m [39m
+ [38;2;0;255;0m\[39m[38;2;4;255;20m [39m[38;2;8;255;40m\[39m[38;2;12;255;60m [39m[38;2;16;255;79m/[39m[38;2;20;255;97m [39m[38;2;25;255;115m/[39m[38;2;29;255;132m [39m[38;2;33;255;149m|[39m[38;2;37;255;165m [39m[38;2;41;255;181m|[39m[38;2;45;255;196m [39m[38;2;50;255;211m|[39m[38;2;54;255;225m [39m[38;2;58;255;238m|[39m[38;2;62;255;251m [39m[38;2;66;245;255m|[39m[38;2;71;233;255m [39m[38;2;75;222;255m|[39m[38;2;79;211;255m/[39m[38;2;83;201;255m [39m[38;2;87;191;255m/[39m[38;2;91;182;255m [39m[38;2;96;174;255m|[39m[38;2;100;166;255m_[39m[38;2;104;158;255m [39m[38;2;108;151;255m_[39m[38;2;112;145;255m|[39m[38;2;117;139;255m [39m[38;2;121;134;255m [39m[38;2;125;129;255m [39m[38;2;133;129;255m [39m[38;2;145;133;255m [39m[38;2;157;137;255m/[39m[38;2;168;142;255m [39m[38;2;178;146;255m_[39m[38;2;188;150;255m_[39m[38;2;197;154;255m|[39m[38;2;206;158;255m [39m[38;2;214;163;255m|[39m[38;2;221;167;255m [39m[38;2;228;171;255m|[39m[38;2;235;175;255m [39m[38;2;241;179;255m|[39m[38;2;246;183;255m [39m[38;2;251;188;255m|[39m[38;2;255;192;253m [39m[38;2;255;196;250m [39m[38;2;255;200;246m/[39m[38;2;255;204;244m [39m[38;2;255;209;242m_[39m[38;2;255;213;240m [39m[38;2;255;217;239m\[39m[38;2;255;221;239m [39m[38;2;255;225;239m [39m[38;2;255;229;239m|[39m[38;2;255;234;240m [39m[38;2;255;238;242m|[39m[38;2;255;242;244m [39m[38;2;255;246;247m|[39m[38;2;255;250;251m [39m[38;2;255;255;255m|[39m
+ [38;2;0;255;0m [39m[38;2;4;255;20m\[39m[38;2;8;255;40m [39m[38;2;12;255;60mV[39m[38;2;16;255;79m [39m[38;2;20;255;97m/[39m[38;2;25;255;115m [39m[38;2;29;255;132m [39m[38;2;33;255;149m|[39m[38;2;37;255;165m [39m[38;2;41;255;181m|[39m[38;2;45;255;196m_[39m[38;2;50;255;211m|[39m[38;2;54;255;225m [39m[38;2;58;255;238m|[39m[38;2;62;255;251m [39m[38;2;66;245;255m|[39m[38;2;71;233;255m [39m[38;2;75;222;255m'[39m[38;2;79;211;255m [39m[38;2;83;201;255m<[39m[38;2;87;191;255m [39m[38;2;91;182;255m [39m[38;2;96;174;255m [39m[38;2;100;166;255m|[39m[38;2;104;158;255m [39m[38;2;108;151;255m|[39m[38;2;112;145;255m [39m[38;2;117;139;255m [39m[38;2;121;134;255m [39m[38;2;125;129;255m [39m[38;2;133;129;255m [39m[38;2;145;133;255m [39m[38;2;157;137;255m\[39m[38;2;168;142;255m_[39m[38;2;178;146;255m_[39m[38;2;188;150;255m [39m[38;2;197;154;255m\[39m[38;2;206;158;255m [39m[38;2;214;163;255m|[39m[38;2;221;167;255m [39m[38;2;228;171;255m|[39m[38;2;235;175;255m_[39m[38;2;241;179;255m|[39m[38;2;246;183;255m [39m[38;2;251;188;255m|[39m[38;2;255;192;253m [39m[38;2;255;196;250m|[39m[38;2;255;200;246m [39m[38;2;255;204;244m([39m[38;2;255;209;242m_[39m[38;2;255;213;240m)[39m[38;2;255;217;239m [39m[38;2;255;221;239m|[39m[38;2;255;225;239m [39m[38;2;255;229;239m|[39m[38;2;255;234;240m [39m[38;2;255;238;242m|[39m[38;2;255;242;244m_[39m[38;2;255;246;247m|[39m[38;2;255;250;251m [39m[38;2;255;255;255m|[39m
+ [38;2;0;255;0m [39m[38;2;4;255;20m [39m[38;2;8;255;40m|[39m[38;2;12;255;60m_[39m[38;2;16;255;79m|[39m[38;2;20;255;97m [39m[38;2;25;255;115m [39m[38;2;29;255;132m [39m[38;2;33;255;149m [39m[38;2;37;255;165m\[39m[38;2;41;255;181m_[39m[38;2;45;255;196m_[39m[38;2;50;255;211m_[39m[38;2;54;255;225m/[39m[38;2;58;255;238m [39m[38;2;62;255;251m [39m[38;2;66;245;255m|[39m[38;2;71;233;255m_[39m[38;2;75;222;255m|[39m[38;2;79;211;255m\[39m[38;2;83;201;255m_[39m[38;2;87;191;255m\[39m[38;2;91;182;255m [39m[38;2;96;174;255m|[39m[38;2;100;166;255m_[39m[38;2;104;158;255m_[39m[38;2;108;151;255m_[39m[38;2;112;145;255m|[39m[38;2;117;139;255m [39m[38;2;121;134;255m [39m[38;2;125;129;255m [39m[38;2;133;129;255m [39m[38;2;145;133;255m [39m[38;2;157;137;255m|[39m[38;2;168;142;255m_[39m[38;2;178;146;255m_[39m[38;2;188;150;255m_[39m[38;2;197;154;255m/[39m[38;2;206;158;255m [39m[38;2;214;163;255m [39m[38;2;221;167;255m\[39m[38;2;228;171;255m_[39m[38;2;235;175;255m_[39m[38;2;241;179;255m_[39m[38;2;246;183;255m/[39m[38;2;251;188;255m [39m[38;2;255;192;253m [39m[38;2;255;196;250m [39m[38;2;255;200;246m\[39m[38;2;255;204;244m_[39m[38;2;255;209;242m_[39m[38;2;255;213;240m_[39m[38;2;255;217;239m/[39m[38;2;255;221;239m [39m[38;2;255;225;239m [39m[38;2;255;229;239m [39m[38;2;255;234;240m\[39m[38;2;255;238;242m_[39m[38;2;255;242;244m_[39m[38;2;255;246;247m_[39m[38;2;255;250;251m/[39m[38;2;255;255;255m [39m
+
+
+
+
+                            [36mm[39m[36ma[39m[36md[39m[36me[39m[36m [39m[36mw[39m[36mi[39m[36mt[39m[36mh[39m[36m [39m[36ml[39m[36mo[39m[36mv[39m[36me[39m[36m [39m[36mb[39m[36my[39m[36m [39m[36md[39m[36me[39m[36ms[39m[36mt[39m[36mr[39m[36mo[39m[36my[39m
+
+
+INFO  [Fri, 06 Feb 2026 02:12:08 GMT]: [ ✿ ]  H E C H O
+
+ꕥ La carpeta: Sessions/SubBot ya está creada.
+[1m[36mMade With | This Xyz[0m
+[1m[36mCopyright (C) - [0m[1m[31mBaileys - This Xyz[0m
+ERROR  [Fri, 06 Feb 2026 02:12:14 GMT]: Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@napi-rs/canvas' imported from /storage/emulated/0/Bot/ChuchoBot/plugins/welcome.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:316:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:858:18)
+    at defaultResolve (node:internal/modules/esm/resolve:990:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+[Error: EBADF: bad file descriptor, read] {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+} uncaughtException
+
+❀ Iniciando...
+
+
+ [38;2;0;255;0m_[39m[38;2;4;255;20m [39m[38;2;8;255;40m [39m[38;2;12;255;60m [39m[38;2;16;255;79m [39m[38;2;20;255;97m_[39m[38;2;25;255;115m [39m[38;2;29;255;132m [39m[38;2;33;255;149m [39m[38;2;37;255;165m_[39m[38;2;41;255;181m [39m[38;2;45;255;196m [39m[38;2;50;255;211m [39m[38;2;54;255;225m_[39m[38;2;58;255;238m [39m[38;2;62;255;251m [39m[38;2;66;245;255m [39m[38;2;71;233;255m_[39m[38;2;75;222;255m [39m[38;2;79;211;255m [39m[38;2;83;201;255m_[39m[38;2;87;191;255m [39m[38;2;91;182;255m [39m[38;2;96;174;255m [39m[38;2;100;166;255m_[39m[38;2;104;158;255m_[39m[38;2;108;151;255m_[39m[38;2;112;145;255m [39m[38;2;117;139;255m [39m[38;2;121;134;255m [39m[38;2;125;129;255m [39m[38;2;133;129;255m [39m[38;2;145;133;255m [39m[38;2;157;137;255m [39m[38;2;168;142;255m_[39m[38;2;178;146;255m_[39m[38;2;188;150;255m_[39m[38;2;197;154;255m [39m[38;2;206;158;255m [39m[38;2;214;163;255m [39m[38;2;221;167;255m_[39m[38;2;228;171;255m [39m[38;2;235;175;255m [39m[38;2;241;179;255m [39m[38;2;246;183;255m_[39m[38;2;251;188;255m [39m[38;2;255;192;253m [39m[38;2;255;196;250m [39m[38;2;255;200;246m [39m[38;2;255;204;244m_[39m[38;2;255;209;242m_[39m[38;2;255;213;240m_[39m[38;2;255;217;239m [39m[38;2;255;221;239m [39m[38;2;255;225;239m [39m[38;2;255;229;239m [39m[38;2;255;234;240m_[39m[38;2;255;238;242m [39m[38;2;255;242;244m [39m[38;2;255;246;247m [39m[38;2;255;250;251m_[39m[38;2;255;255;255m [39m
+ [38;2;0;255;0m\[39m[38;2;4;255;20m [39m[38;2;8;255;40m\[39m[38;2;12;255;60m [39m[38;2;16;255;79m/[39m[38;2;20;255;97m [39m[38;2;25;255;115m/[39m[38;2;29;255;132m [39m[38;2;33;255;149m|[39m[38;2;37;255;165m [39m[38;2;41;255;181m|[39m[38;2;45;255;196m [39m[38;2;50;255;211m|[39m[38;2;54;255;225m [39m[38;2;58;255;238m|[39m[38;2;62;255;251m [39m[38;2;66;245;255m|[39m[38;2;71;233;255m [39m[38;2;75;222;255m|[39m[38;2;79;211;255m/[39m[38;2;83;201;255m [39m[38;2;87;191;255m/[39m[38;2;91;182;255m [39m[38;2;96;174;255m|[39m[38;2;100;166;255m_[39m[38;2;104;158;255m [39m[38;2;108;151;255m_[39m[38;2;112;145;255m|[39m[38;2;117;139;255m [39m[38;2;121;134;255m [39m[38;2;125;129;255m [39m[38;2;133;129;255m [39m[38;2;145;133;255m [39m[38;2;157;137;255m/[39m[38;2;168;142;255m [39m[38;2;178;146;255m_[39m[38;2;188;150;255m_[39m[38;2;197;154;255m|[39m[38;2;206;158;255m [39m[38;2;214;163;255m|[39m[38;2;221;167;255m [39m[38;2;228;171;255m|[39m[38;2;235;175;255m [39m[38;2;241;179;255m|[39m[38;2;246;183;255m [39m[38;2;251;188;255m|[39m[38;2;255;192;253m [39m[38;2;255;196;250m [39m[38;2;255;200;246m/[39m[38;2;255;204;244m [39m[38;2;255;209;242m_[39m[38;2;255;213;240m [39m[38;2;255;217;239m\[39m[38;2;255;221;239m [39m[38;2;255;225;239m [39m[38;2;255;229;239m|[39m[38;2;255;234;240m [39m[38;2;255;238;242m|[39m[38;2;255;242;244m [39m[38;2;255;246;247m|[39m[38;2;255;250;251m [39m[38;2;255;255;255m|[39m
+ [38;2;0;255;0m [39m[38;2;4;255;20m\[39m[38;2;8;255;40m [39m[38;2;12;255;60mV[39m[38;2;16;255;79m [39m[38;2;20;255;97m/[39m[38;2;25;255;115m [39m[38;2;29;255;132m [39m[38;2;33;255;149m|[39m[38;2;37;255;165m [39m[38;2;41;255;181m|[39m[38;2;45;255;196m_[39m[38;2;50;255;211m|[39m[38;2;54;255;225m [39m[38;2;58;255;238m|[39m[38;2;62;255;251m [39m[38;2;66;245;255m|[39m[38;2;71;233;255m [39m[38;2;75;222;255m'[39m[38;2;79;211;255m [39m[38;2;83;201;255m<[39m[38;2;87;191;255m [39m[38;2;91;182;255m [39m[38;2;96;174;255m [39m[38;2;100;166;255m|[39m[38;2;104;158;255m [39m[38;2;108;151;255m|[39m[38;2;112;145;255m [39m[38;2;117;139;255m [39m[38;2;121;134;255m [39m[38;2;125;129;255m [39m[38;2;133;129;255m [39m[38;2;145;133;255m [39m[38;2;157;137;255m\[39m[38;2;168;142;255m_[39m[38;2;178;146;255m_[39m[38;2;188;150;255m [39m[38;2;197;154;255m\[39m[38;2;206;158;255m [39m[38;2;214;163;255m|[39m[38;2;221;167;255m [39m[38;2;228;171;255m|[39m[38;2;235;175;255m_[39m[38;2;241;179;255m|[39m[38;2;246;183;255m [39m[38;2;251;188;255m|[39m[38;2;255;192;253m [39m[38;2;255;196;250m|[39m[38;2;255;200;246m [39m[38;2;255;204;244m([39m[38;2;255;209;242m_[39m[38;2;255;213;240m)[39m[38;2;255;217;239m [39m[38;2;255;221;239m|[39m[38;2;255;225;239m [39m[38;2;255;229;239m|[39m[38;2;255;234;240m [39m[38;2;255;238;242m|[39m[38;2;255;242;244m_[39m[38;2;255;246;247m|[39m[38;2;255;250;251m [39m[38;2;255;255;255m|[39m
+ [38;2;0;255;0m [39m[38;2;4;255;20m [39m[38;2;8;255;40m|[39m[38;2;12;255;60m_[39m[38;2;16;255;79m|[39m[38;2;20;255;97m [39m[38;2;25;255;115m [39m[38;2;29;255;132m [39m[38;2;33;255;149m [39m[38;2;37;255;165m\[39m[38;2;41;255;181m_[39m[38;2;45;255;196m_[39m[38;2;50;255;211m_[39m[38;2;54;255;225m/[39m[38;2;58;255;238m [39m[38;2;62;255;251m [39m[38;2;66;245;255m|[39m[38;2;71;233;255m_[39m[38;2;75;222;255m|[39m[38;2;79;211;255m\[39m[38;2;83;201;255m_[39m[38;2;87;191;255m\[39m[38;2;91;182;255m [39m[38;2;96;174;255m|[39m[38;2;100;166;255m_[39m[38;2;104;158;255m_[39m[38;2;108;151;255m_[39m[38;2;112;145;255m|[39m[38;2;117;139;255m [39m[38;2;121;134;255m [39m[38;2;125;129;255m [39m[38;2;133;129;255m [39m[38;2;145;133;255m [39m[38;2;157;137;255m|[39m[38;2;168;142;255m_[39m[38;2;178;146;255m_[39m[38;2;188;150;255m_[39m[38;2;197;154;255m/[39m[38;2;206;158;255m [39m[38;2;214;163;255m [39m[38;2;221;167;255m\[39m[38;2;228;171;255m_[39m[38;2;235;175;255m_[39m[38;2;241;179;255m_[39m[38;2;246;183;255m/[39m[38;2;251;188;255m [39m[38;2;255;192;253m [39m[38;2;255;196;250m [39m[38;2;255;200;246m\[39m[38;2;255;204;244m_[39m[38;2;255;209;242m_[39m[38;2;255;213;240m_[39m[38;2;255;217;239m/[39m[38;2;255;221;239m [39m[38;2;255;225;239m [39m[38;2;255;229;239m [39m[38;2;255;234;240m\[39m[38;2;255;238;242m_[39m[38;2;255;242;244m_[39m[38;2;255;246;247m_[39m[38;2;255;250;251m/[39m[38;2;255;255;255m [39m
+
+
+
+
+                            [36mm[39m[36ma[39m[36md[39m[36me[39m[36m [39m[36mw[39m[36mi[39m[36mt[39m[36mh[39m[36m [39m[36ml[39m[36mo[39m[36mv[39m[36me[39m[36m [39m[36mb[39m[36my[39m[36m [39m[36md[39m[36me[39m[36ms[39m[36mt[39m[36mr[39m[36mo[39m[36my[39m
+
+
+
+╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄⟡
+┆ La conexión (+50246948321) fue cerrada inesperadamente. Intentando reconectar...
+╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄⟡
+INFO  [Fri, 06 Feb 2026 02:12:37 GMT]: [ ✿ ]  H E C H O
+
+ꕥ La carpeta: Sessions/SubBot ya está creada.
+
+❒⸺⸺⸺⸺【• SUB-BOT •】⸺⸺⸺⸺❒
+│
+│ ❍ ChuchoBot (+50246948321) conectado exitosamente.
+│
+❒⸺⸺⸺【• CONECTADO •】⸺⸺⸺❒
+Rechazo no manejado detectado: TypeError: Cannot read properties of null (reading 'sender')
+    at Object.connectionUpdate (file:///storage/emulated/0/Bot/ChuchoBot/plugins/sockets-serbot.js:267:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+ERROR  [Fri, 06 Feb 2026 02:12:47 GMT]: Error [ERR_MODULE_NOT_FOUND]: Cannot find package '@napi-rs/canvas' imported from /storage/emulated/0/Bot/ChuchoBot/plugins/welcome.js
+    at Object.getPackageJSONURL (node:internal/modules/package_json_reader:316:9)
+    at packageResolve (node:internal/modules/esm/resolve:768:81)
+    at moduleResolve (node:internal/modules/esm/resolve:858:18)
+    at defaultResolve (node:internal/modules/esm/resolve:990:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:718:20)
+    at #resolveAndMaybeBlockOnLoaderThread (node:internal/modules/esm/loader:735:38)
+    at ModuleLoader.resolveSync (node:internal/modules/esm/loader:764:52)
+    at #resolve (node:internal/modules/esm/loader:700:17)
+    at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:620:35)
+    at ModuleJob.syncLink (node:internal/modules/esm/module_job:143:33) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
+[Error: EBADF: bad file descriptor, read] {
+  errno: -9,
+  code: 'EBADF',
+  syscall: 'read'
+} uncaughtException
+
+╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄⟡
+┆ La conexión (+50246948321) fue reemplazada por otra sesión activa.
+╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄⟡
+Rechazo no manejado detectado: Error: Connection Closed
+    at sendRawMessage (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:57:19)
+    at sendNode (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:76:16)
+    at /storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:526:19
+    at async Object.transaction (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Utils/auth-utils.js:135:26)
+    at async relayMessage (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:297:9)
+    at async sendPeerDataOperationMessage (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:219:23)
+    at async sendRetryRequest (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/messages-recv.js:157:27)
+    at async /storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/messages-recv.js:763:33
+    at async /storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Utils/make-mutex.js:18:36 {
+  data: null,
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 428,
+    payload: {
+      statusCode: 428,
+      error: 'Precondition Required',
+      message: 'Connection Closed'
+    },
+    headers: {}
+  }
+}
+{
+  messageStubType: 32,
+  messageStubParameters: [ '251608311042108@lid' ],
+  type: 'GROUP_PARTICIPANT_LEAVE'
+}
+{
+  messageStubType: 28,
+  messageStubParameters: [ '205205668929553@lid' ],
+  type: 'GROUP_PARTICIPANT_REMOVE'
+}
+{
+  messageStubType: 32,
+  messageStubParameters: [ '211943969317037@lid' ],
+  type: 'GROUP_PARTICIPANT_LEAVE'
+}
+{
+  messageStubType: 27,
+  messageStubParameters: [ '34334438379594@lid' ],
+  type: 'GROUP_PARTICIPANT_ADD'
+}
+{
+  messageStubType: 28,
+  messageStubParameters: [ '212390545236086@lid' ],
+  type: 'GROUP_PARTICIPANT_REMOVE'
+}
+{
+  messageStubType: 28,
+  messageStubParameters: [ '230773491802118@lid' ],
+  type: 'GROUP_PARTICIPANT_REMOVE'
+}
+TypeError: Cannot read properties of undefined (reading '0')
+    at Object.value (file:///storage/emulated/0/Bot/ChuchoBot/lib/simple.js:1869:60)
+    at Object.value (file:///storage/emulated/0/Bot/ChuchoBot/lib/simple.js:1930:34)
+    at Object.handler (file:///storage/emulated/0/Bot/ChuchoBot/handler.js?update=1770343968362:22:6)
+    at EventEmitter.emit (node:events:508:28)
+    at EventEmitter.<anonymous> (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:40:16)
+    at EventEmitter.emit (node:events:508:28)
+    at Object.flush (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:73:16)
+    at WebSocketClient.<anonymous> (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:594:16)
+    at WebSocketClient.emit (node:events:508:28)
+    at /storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:256:35
+TypeError: Cannot read properties of undefined (reading '0')
+    at Object.value (file:///storage/emulated/0/Bot/ChuchoBot/lib/simple.js:1869:60)
+    at Object.value (file:///storage/emulated/0/Bot/ChuchoBot/lib/simple.js:1930:34)
+    at Object.handler (file:///storage/emulated/0/Bot/ChuchoBot/handler.js?update=1770343968362:22:6)
+    at EventEmitter.emit (node:events:508:28)
+    at EventEmitter.<anonymous> (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:40:16)
+    at EventEmitter.emit (node:events:508:28)
+    at Object.flush (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:73:16)
+    at WebSocketClient.<anonymous> (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:594:16)
+    at WebSocketClient.emit (node:events:508:28)
+    at /storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:256:35
+TypeError: Cannot read properties of undefined (reading '0')
+    at Object.value (file:///storage/emulated/0/Bot/ChuchoBot/lib/simple.js:1869:60)
+    at Object.value (file:///storage/emulated/0/Bot/ChuchoBot/lib/simple.js:1930:34)
+    at Object.handler (file:///storage/emulated/0/Bot/ChuchoBot/handler.js?update=1770343968362:22:6)
+    at EventEmitter.emit (node:events:508:28)
+    at EventEmitter.<anonymous> (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:40:16)
+    at EventEmitter.emit (node:events:508:28)
+    at Object.flush (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:73:16)
+    at WebSocketClient.<anonymous> (/storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:594:16)
+    at WebSocketClient.emit (node:events:508:28)
+    at /storage/emulated/0/Bot/ChuchoBot/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:256:35
+╭────────────────────────────────···
+│Bot: +50246948321 ~ ChuchoBot (Sub-Bot)
+│Fecha: 5 de febrero de 2026
+│Tipo de evento: Ninguno
+│Peso del mensaje: 28 B [28.0 B]
+│Remitente: +185504603590749@lid
+│Chat Grupal: ChuchoBot
+│Tipo de mensaje: ExtendedText
+╰───────────────────···
+ꕥ Ese no es un socket activo
+
+
+(node:20706) [node-fetch#buffer] DeprecationWarning: Please use 'response.arrayBuffer()' instead of 'response.buffer()'
+(Use `node --trace-deprecation ...` to show where the warning was created)
+╭────────────────────────────────···
+│Bot: +50246948321 ~ ChuchoBot (Sub-Bot)
+│Fecha: 5 de febrero de 2026
+│Tipo de evento: Ninguno
+│Peso del mensaje: 129896 B [129.9 KB]
+│Remitente: +205205668929553@lid
+│Chat Grupal: ChuchoBot
+│Tipo de mensaje: Image
+╰───────────────────···
+Número da vagabunda (ela envia fotos grátis): +55 51 9643-7451.
+
+
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+
+╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄⟡
+┆ La conexión (+50246948321) fue reemplazada por otra sesión activa.
+╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄⟡
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+→ Archivos de la carpeta TMP eliminados
+→ Archivos de la carpeta TMP eliminados
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+→ Archivos de la carpeta TMP eliminados
+→ Archivos de la carpeta TMP eliminados
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+INFO  [Fri, 06 Feb 2026 02:28:53 GMT]:  updated plugin - 'sockets-serbot.js'
+INFO  [Fri, 06 Feb 2026 02:28:53 GMT]:  updated plugin - 'sockets-serbot.js'
+
+
+INFO  [Fri, 06 Feb 2026 02:28:54 GMT]:  updated plugin - 'sockets-serbot.js'
+INFO  [Fri, 06 Feb 2026 02:28:54 GMT]:  updated plugin - 'sockets-serbot.js'
+
+INFO  [Fri, 06 Feb 2026 02:28:55 GMT]:  updated plugin - 'sockets-serbot.js'
+
+INFO  [Fri, 06 Feb 2026 02:28:55 GMT]:  updated plugin - 'sockets-serbot.js'
+
+
+→ Archivos de la carpeta TMP eliminados
+→ Archivos de la carpeta TMP eliminados
+INFO  [Fri, 06 Feb 2026 02:29:37 GMT]:  updated plugin - 'sockets-serbot.js'
+INFO  [Fri, 06 Feb 2026 02:29:37 GMT]:  updated plugin - 'sockets-serbot.js'
+
+INFO  [Fri, 06 Feb 2026 02:29:37 GMT]:  updated plugin - 'sockets-serbot.js'
+
+INFO  [Fri, 06 Feb 2026 02:29:37 GMT]:  updated plugin - 'sockets-serbot.js'
+
+INFO  [Fri, 06 Feb 2026 02:29:37 GMT]:  updated plugin - 'sockets-serbot.js'
+
+INFO  [Fri, 06 Feb 2026 02:29:37 GMT]:  updated plugin - 'sockets-serbot.js'
+
+
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+→ Archivos de la carpeta TMP eliminados
+→ Archivos de la carpeta TMP eliminados
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+→ Archivos de la carpeta TMP eliminados
+→ Archivos de la carpeta TMP eliminados
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+→ Archivos de la carpeta TMP eliminados
+→ Archivos de la carpeta TMP eliminados
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+→ Archivos de la carpeta TMP eliminados
+→ Archivos de la carpeta TMP eliminados
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}
+→ Archivos de la carpeta TMP eliminados
+→ Archivos de la carpeta TMP eliminados
+Rechazo no manejado detectado: Error: ENOENT: no such file or directory, rename '.database.json.tmp' -> 'database.json'
+    at async Object.rename (node:internal/fs/promises:782:10)
+    at async Writer._Writer_write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/steno/lib/index.js:60:9)
+    at async Low.write (file:///storage/emulated/0/Bot/ChuchoBot/node_modules/lowdb/lib/Low.js:28:13)
+    at async Timeout._onTimeout (file:///storage/emulated/0/Bot/ChuchoBot/index.js:171:21) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'rename',
+  path: '.database.json.tmp',
+  dest: 'database.json'
+}

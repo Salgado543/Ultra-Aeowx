@@ -1,0 +1,94 @@
+import fetch from 'node-fetch'
+
+// ===== CACHE GLOBAL =====
+global.settingsCache ||= new Map()
+global.rcanalCache ||= new Map()
+
+global.canalIdM ||= [
+  "120363401404146384@newsletter",
+  "120363401404146384@newsletter"
+]
+
+global.canalNombreM ||= [
+  "ᥫ᭡ 𝒀𝒖𝒌𝒊 𝑾𝒂𝑩𝒐𝒕 - 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 ᯓᡣ𐭩",
+  "ᥫ᭡ 𝒀𝒖𝒌𝒊 𝑾𝒂𝑩𝒐𝒕 - 𝑶𝒇𝒇𝒊𝒄𝒊𝒂𝒍 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 ᯓᡣ𐭩"
+]
+
+// ===== SETTINGS =====
+export function getSettings(conn) {
+  const jid = conn?.user?.jid
+  if (!jid) return null
+
+  if (global.settingsCache.has(jid)) {
+    return global.settingsCache.get(jid)
+  }
+
+  global.db.data.settings ||= {}
+  const settings = global.db.data.settings[jid] ||= {}
+
+  settings.namebot ||= 'Bot'
+  settings.dev ||= 'Calacas'
+  settings.channelId ||= null
+  settings.channelName ||= null
+  settings.redes ||= null
+
+  global.settingsCache.set(jid, settings)
+  return settings
+}
+
+// ===== RCANAL =====
+export async function getRcanal(conn) {
+  const jid = conn?.user?.jid
+  if (!jid) return null
+
+  const settings = getSettings(conn)
+  const channel = await getRandomChannel()
+
+  const cacheKey = JSON.stringify({
+    namebot: settings.namebot,
+    logo: settings.logo 
+  })
+
+  const cached = global.rcanalCache.get(jid)
+  if (cached?.__key === cacheKey) return cached
+
+  let thumbnail = null
+  if (settings?.logo) {
+  thumbnail = Buffer.from(settings.logo, 'base64') 
+  }else{ 
+  try {
+    thumbnail = await (await fetch(global.banner)).buffer()
+  } catch {}
+  } 
+
+  const rcanal = {
+    __key: cacheKey,
+    contextInfo: {
+      isForwarded: true,
+      forwardedNewsletterMessageInfo: {
+        newsletterJid: channel.id,
+        newsletterName: settings.namebot
+      },
+      externalAdReply: {
+        title: settings.namebot,
+        body: settings.dev,
+        sourceUrl: global.redes,
+        mediaType: 1,
+        thumbnail,
+        renderLargerThumbnail: false
+      }
+    }
+  }
+
+  global.rcanalCache.set(jid, rcanal)
+  return rcanal
+}
+
+// ===== HELPERS =====
+async function getRandomChannel() {
+  const i = Math.floor(Math.random() * global.canalIdM.length)
+  return {
+    id: global.canalIdM[i],
+    name: global.canalNombreM[i]
+  }
+}
