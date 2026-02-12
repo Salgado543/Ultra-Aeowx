@@ -1,42 +1,54 @@
-// créditos by xzzys26 Para Gaara-Ultra-MD 
+// Créditos: Modificado para Aeowxs Ultra (Gio)
 
-async function handler(m, { conn, usedPrefix }) {
-  try {
-    await m.react('👨🏻‍💻')
+async function handler(m, { conn }) {
+    try {
+        
+        await m.react('🛡️')
 
-    const imageUrl = icono 
+        const messageText = `
+*INFORMACIÓN DEL PROYECTO* 
 
-let messageText = `
-🤖 *𝘼𝙚𝙤𝙬𝙭 𝙐𝙡𝙩𝙧𝙖*
-👤 *Creador:* El Calacas 
-🌐 *Canal:* https://whatsapp.com/channel/0029Vb6Ys0q6xCSV5iyFfw1T` 
+*👤 Developer:* Aeowx Club
+*🤖 Bot:* Aeowxs Ultra
 
-    await conn.sendMessage(m.chat, {
-      video: { url: './owner/banner.mp4' }, 
-      caption: messageText,
-      footer: '*⚡ Somos Calidad*',
-      buttons: [
-        {
-          buttonId: `${usedPrefix}code`,
-          buttonText: { displayText: "🤖 𝗖𝗼𝗱𝗲" },
-          type: 1,
-        },
-        {
-          buttonId: `${usedPrefix}menu`,
-          buttonText: { displayText: "📜 𝗠𝗲𝗻𝘂" },
-          type: 1,
-        },
-      ],
-      headerType: 4
-    }, { quoted: m })
+> *Aeowxs Ultra* es un asistente virtual diseñado para potenciar tus grupos de WhatsApp con herramientas de administración y entretenimiento.
 
-  } catch (error) {
-    console.error('Error:', error) 
-  }
+> Si encuentras algún error o tienes sugerencias, por favor contacta al desarrollador.
+`.trim()
+
+        
+        let msgConfig = {
+            video: { url: './owner/banner.mp4' }, 
+            gifPlayback: true,
+            caption: messageText,
+            contextInfo: {
+                externalAdReply: {
+                    title: "Aeowxs Ultra | System",
+                    body: "Powered by GIODEV",
+                    thumbnailUrl: "https://qu.ax/Zgqq.jpg",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vb6Ys0q6xCSV5iyFfw1T",
+                    mediaType: 1,
+                    renderLargerThumbnail: true
+                }
+            }
+        }
+
+       
+        await conn.sendMessage(m.chat, msgConfig, { quoted: m })
+
+        
+        return true 
+
+    } catch (error) {
+        console.error('Error en el comando owner:', error)
+       
+        return true 
+    }
 }
 
-handler.help = ['creador']
+
+handler.help = ['owner', 'creator']
 handler.tags = ['info']
-handler.command = ['owner', 'creator', 'creador', 'dueño', 'sc', 'script']
+handler.command = ['owner', 'creator', 'creador', 'dueño', 'propietario', 'sc', 'script']
 
 export default handler

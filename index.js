@@ -33,12 +33,12 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
 let { say } = cfonts
 console.log(chalk.magentaBright('\n❀ Iniciando...'))
-say('ChuchoBot v1', {
+say('Aeowx Ult', {
 font: 'simple',
 align: 'left',
 gradient: ['green', 'white']
 })
-say('Made by App Corporation', {
+say('Made by Aeowx Club', {
 font: 'console',
 align: 'center',
 colors: ['cyan', 'magenta', 'yellow']
