@@ -1,22 +1,19 @@
 import fetch from 'node-fetch'
-import path from 'path' 
-import fs from "fs"
 
 let handler = async (m, { conn, args }) => {
 let mentionedJid = await m.mentionedJid
 let userId = mentionedJid && mentionedJid[0] ? mentionedJid[0] : m.sender
 let totalreg = Object.keys(global.db.data.users).length
-let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length 
 
-let txt = `̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮
-✨ *¡HOLA @${userId.split('@')[0]}! SOY ${botname}* ✨
-Aquí tienes la lista completa de comandos disponible. 
-> 
-🤖 *ESTADO DEL SISTEMA*
-┌ 🛠️ Tipo: ${(conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub-Bot')}
-│ 👥 Usuarios: ${totalreg.toLocaleString()}
-│ 🚀 Versión: ${vs} 
-└ 📦 Plugins: ${totalCommands}
+// MENÚ DETALLADO (ESTILO ORIGINAL)
+let txt = `꒰  ✿ ᪲    ׄ    𝗪𝗲𝗹𝗰𝗼𝗺𝗲 🌑⃨᪲    稜
+    🦦ᩖ ¿Cómo está todo?
+> 𓂃ෆ˚ Feliz día ✦
+
+🌴 \`Tipo:\` ${(conn.user.jid == global.conn.user.jid ? 'Principal' : 'Sub-Bot')}
+🥥 \`𝖴𝗌𝖾𝗋𝗌:\` ${totalreg.toLocaleString()}
+
+> 𝖫𝗂𝗌𝗍𝖺 𝖽𝖾 comandos 𝖽𝗂𝗌𝗉𝗈𝗇𝗂𝖻𝗅𝖾𝗌.
 
 💰 *ECONOMY (Sistema Monetario)*
 • #w • #work • #trabajar ⮕ Trabajar por coins.
@@ -41,6 +38,7 @@ Aquí tienes la lista completa de comandos disponible.
 • #cazar • #hunt ⮕ Cazar animales.
 • #fish • #pescar ⮕ Ir de pesca.
 • #mazmorra • #dungeon ⮕ Explorar mazmorras.
+
 📥 *DOWNLOAD (Descargas & Búsqueda)*
 • #tiktok • #tt ⮕ Descargar video de TikTok.
 • #play • #ytmp3 • #ytmp4 ⮕ Música o video de YouTube.
@@ -55,6 +53,7 @@ Aquí tienes la lista completa de comandos disponible.
 • #mega • #mg ⮕ Archivo de MEGA.
 • #game ⮕ Buscar juego de PC o PSP.
 • #wagroups • #wpgroups ⮕ Buscar grupos de WhatsApp.
+
 🎭 *GACHA (Colección de Personajes)*
 • #roll • #rw ⮕ Waifu/Husbando aleatorio.
 • #claim • #c ⮕ Reclamar un personaje.
@@ -78,6 +77,7 @@ Aquí tienes la lista completa de comandos disponible.
 • #setclaimmsg ⮕ Cambiar mensaje al reclamar.
 • #delclaimmsg ⮕ Reset mensaje de reclamo.
 • #giveallharem ⮕ Regalar todo tu harem.
+
 🔌 *SOCKETS (Gestión de Bots)*
 • #qr • #code ⮕ Crear tu propio Sub-Bot.
 • #bots • #botlist ⮕ Ver bots activos.
@@ -89,6 +89,7 @@ Aquí tienes la lista completa de comandos disponible.
 • #setpfp ⮕ Cambiar foto de perfil.
 • #setstatus ⮕ Cambiar estado del bot.
 • #setusername ⮕ Cambiar nombre del bot.
+
 🛠️ *UTILITIES (Herramientas & IA)*
 • #help • #menu ⮕ Ver este menú.
 • #ia • #gemini ⮕ Hablar con ChatGPT.
@@ -114,6 +115,7 @@ Aquí tienes la lista completa de comandos disponible.
 • #reporte ⮕ Informar fallas.
 • #sug ⮕ Sugerir funciones.
 • #sc • #script ⮕ Repositorio del Bot.
+
 👤 *PROFILES (Tu Perfil)*
 • #profile ⮕ Ver tu perfil personal.
 • #level • #lvl ⮕ Ver nivel y experiencia.
@@ -126,85 +128,78 @@ Aquí tienes la lista completa de comandos disponible.
 • #setbirth | #delbirth ⮕ Fecha de cumple.
 • #setfav ⮕ Poner personaje favorito.
 • #prem • #vip ⮕ Comprar membresía.
-🛡️ *GROUPS (Administración)*
-• #tagall • #invocar ⮕ Mencionar a todos.
-• #admins ⮕ Llamar a los administradores.
-• #promote | #demote ⮕ Dar/Quitar admin.
-• #kick | #add ⮕ Expulsar o añadir miembros.
-• #open | #close ⮕ Abrir o cerrar el chat.
-• #bot [on/off] ⮕ Activar/Desactivar bot.
-• #antilink [on/off] ⮕ Bloquear enlaces.
-• #nsfw [on/off] ⮕ Contenido adulto.
-• #welcome [on/off] ⮕ Bienvenidas.
-• #setwelcome | #setbye ⮕ Mensajes personalizados.
-• #economy [on/off] ⮕ Activar economía.
-• #gacha [on/off] ⮕ Activar juegos.
-• #onlyadmin [on/off] ⮕ Comandos solo admins.
-• #detect • #alertas ⮕ Avisos de cambios.
-• #warn | #unwarn ⮕ Dar/Quitar advertencia.
-• #advlist ⮕ Lista de advertidos.
-• #inactivos • #kickinactivos ⮕ Limpiar grupo.
-• #kicknum ⮕ Expulsar por prefijo de país.
-• #gpname | #gpdesc | #groupimg ⮕ Editar grupo.
-• #del • #delete ⮕ Borrar mensajes de otros.
-• #link ⮕ Enlace del grupo.
-• #revoke ⮕ Cambiar enlace del grupo.
-• #infogrupo ⮕ Información técnica.
-• #listonline ⮕ Ver quién está activo.
-• #setprimary ⮕ Definir bot principal.
-🌸 *ANIME (Acciones & Reacciones)*
-• #angry • #bath • #bite • #bleh • #blush
-• #bored • #clap • #coffee • #cry • #cuddle
-• #dance • #dramatic • #drunk • #eat • #facepalm
-• #happy • #hug • #impregnate • #kill • #kiss
-• #kisscheek • #laugh • #lick • #love • #pat
-• #poke • #pout • #punch • #run • #sad
-• #scared • #seduce • #shy • #slap • #sleep
-• #smoke • #spit • #step • #think • #walk
-• #wink • #cringe • #smug • #smile • #highfive
-• #bully • #handhold • #wave • #waifu
-• #ppcouple ⮕ Fotos de perfil compartidas.
-🔞 *NSFW (Solo Chats Permitidos)*
-• #r34 • #danbooru • #gelbooru
-• #xvideos • #xnxx (Descargas) 
-̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮   ̮
-`.trim() 
 
-const caption = txt; 
+🌸 *ANIME (Acciones & Reacciones)*
+• #angry • #bath ⮕ Enojado / Bañarse
+• #bite • #bleh ⮕ Morder / Lengua
+• #blush • #bored ⮕ Sonrojarse / Aburrido
+• #clap • #coffee ⮕ Aplaudir / Café
+• #cry • #cuddle ⮕ Llorar / Acurrucarse
+• #dance • #dramatic ⮕ Bailar / Drama
+• #drunk • #eat ⮕ Borracho / Comer
+• #facepalm • #happy ⮕ Palmada / Feliz
+• #hug • #impregnate ⮕ Abrazar / Embarazar
+• #kill • #kiss ⮕ Matar / Besar
+• #kisscheek • #laugh ⮕ Beso mejilla / Reír
+• #lick • #love ⮕ Lamer / Amor
+• #pat • #poke ⮕ Acariciar / Picar
+• #pout • #punch ⮕ Puchero / Golpear
+• #run • #sad ⮕ Correr / Triste
+• #scared • #seduce ⮕ Asustado / Seducir
+• #shy • #slap ⮕ Tímido / Bofetada
+• #sleep • #smoke ⮕ Dormir / Fumar
+• #spit • #step ⮕ Escupir / Pisar
+• #think • #walk ⮕ Pensar / Caminar
+• #wink • #cringe ⮕ Guiñar / Cringe
+• #smug • #smile ⮕ Presumir / Sonreír
+• #highfive • #bully ⮕ Chocar 5 / Bullying
+• #handhold • #wave ⮕ Tomar mano / Saludar
+• #waifu • #ppcouple ⮕ Waifu Random / Parejas
+
+🔞 *NSFW (Solo Chats Permitidos)*
+• #r34 • #danbooru • #gelbooru ⮕ Buscadores H
+• #xvideos • #xnxx ⮕ Descargas +18
+
+🧩 *FUN & GAMES (Diversión)*
+• #pokedex ⮕ Info Pokémon
+• #top ⮕ Rankings varios
+• #sorteo ⮕ Realizar sorteo
+• #ship • #shippear ⮕ Parejas random
+• #personalidad ⮕ Test personalidad
+• #formarpareja ⮕ Casamentero
+• #gay • #lesbiana ⮕ Medidor LGBT
+• #doxear • #doxeo ⮕ Broma hack
+
+👑 *OWNER (Solo Dueño)*
+• #listonline ⮕ Ver sub-bots online
+• #addcoin • #addxp ⮕ Añadir recursos
+• #addprem • #delprem ⮕ Gestionar Premium
+• #autoadmin ⮕ Auto-Admin
+• #backup ⮕ Copia de seguridad
+• #resetuser ⮕ Reiniciar usuario
+• #cleartmp ⮕ Limpiar caché
+• #restart ⮕ Reiniciar bot
+• #saveplugin ⮕ Guardar plugin
+• #getplugin ⮕ Descargar plugin
+
+> Aeowxs Club
+`.trim()
+
+const caption = txt;
 
 await conn.sendMessage(m.chat, { 
-video: { url: './owner/banner.mp4' }, gifPlayback: true, caption : txt,
+video: { url: './owner/banner.mp4' }, 
+gifPlayback: true, 
+caption : txt,
 contextInfo: {
-mentionedJid: [userId],
-isForwarded: true,
-forwardedNewsletterMessageInfo: {
-newsletterJid: channelRD.id,
-serverMessageId: '',
-newsletterName: botname
-},
-externalAdReply: {
-title: botname,
-body: textbot,
-mediaType: 1,
-mediaUrl: redes,
-sourceUrl: redes,
-thumbnail: icono,
-thumbnailUrl: redes,
-showAdAttribution: false,
-previewType: 0,
-containsAutoReply: true,
-renderLargerThumbnail: false
+    mentionedJid: [userId]
+}}, { quoted: m })
+
 }
-
-}}, { quoted: m }) 
-
-} 
 
 
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['menu', 'menú', 'help']
+handler.command = ['menu', 'menú', 'help', 'commands']
 
-export default handler 
-
-
+export default handler

@@ -12,7 +12,7 @@ global.botNumber = "" //Ejemplo: 573218138672
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.owner = ["527341011505", "50257067386"]
+global.owner = ["5217341011505"]
 global.suittag = ["527341011505"] 
 global.prems = []
 
@@ -28,10 +28,10 @@ global.limitbots = 20;
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.botname = "𝘼𝙚𝙤𝙬𝙭 𝙐𝙡𝙩𝙧𝙖"
-global.textbot = "bot, mᥲძᥱ ᥕі𝗍һ ᑲᥡ El Calacas"
-global.dev = "© ⍴᥆ᥕᥱrᥱძ ᑲᥡ El Calacas"
-global.author = "© mᥲძᥱ ᥕі𝗍һ ᑲᥡ El Calacas"
-global.etiqueta = "El Calacas"
+global.textbot = "Aeowxs Club"
+global.dev = "© Aeowxs Club"
+global.author = "© Aeowxs Club"
+global.etiqueta = "Aeowxs Club"
 global.currency = "¥enes"
 global.banner = '' 
 global.icono = fs.readFileSync(
@@ -42,10 +42,10 @@ global.catalogo = fs.readFileSync('./lib/catalogo.jpg')
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.group = "https://whatsapp.com/channel/0029Vb6Ys0q6xCSV5iyFfw1T"
-global.community = "https://whatsapp.com/channel/0029Vb6Ys0q6xCSV5iyFfw1T"
+global.community = ""
 global.channel = "https://whatsapp.com/channel/0029Vb6Ys0q6xCSV5iyFfw1T"
-global.github = "https://youtu.be/EvaqEJBlOH4?si=DxMz2gXHaKSvpqkC"
-global.gmail = "appcorporationoficial@gmail.com"
+global.github = ""
+global.gmail = ""
 global.ch = {
 ch1: "120363419579118411@newsletter"
 }
