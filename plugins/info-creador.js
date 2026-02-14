@@ -24,7 +24,7 @@ async function handler(m, { conn }) {
             contextInfo: {
                 externalAdReply: {
                     title: "Aeowxs Ultra | System",
-                    body: "Powered by GIODEV",
+                    body: "Powered by Aeowxs Club,
                     thumbnailUrl: "https://qu.ax/Zgqq.jpg",
                     sourceUrl: "https://whatsapp.com/channel/0029Vb6Ys0q6xCSV5iyFfw1T",
                     mediaType: 1,
